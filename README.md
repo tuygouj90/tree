@@ -1,4 +1,4 @@
-# koyeb容器云部署Xray高性能代理服务
+# koyeb容器云部署Xray高性能代理服务**XRay 将在部署时会自动实配安装`最新版本`。**
 
 在koyeb容器云使用[xray](https://github.com/XTLS/Xray-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议，并默认已配置好伪装网站。
 * 支持tor网络，且可通过自定义网络配置文件启动xray和caddy来按需配置各种功能  
@@ -39,8 +39,6 @@
 Environment variables：`Key`：PORT，`Value`：80
 `Name`：自己定义
 
-**XRay 将在部署时会自动实配安装`最新版本`。**
-8. 客户端配置如下所示
 
 <details>
 <summary>V2rayN(Xray、V2ray)</summary>
